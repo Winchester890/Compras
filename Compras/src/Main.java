@@ -44,7 +44,7 @@ public class Main {
         carrinho.mostraCarrinho();
         System.out.println("Total da compra: " + String.format("%.2f", total));
         double descontos = carrinho.retornoDesconto(total);
-        System.out.println("Descontos: " + String.format("%.2f",descontos));
-        System.out.println("Total: " + String.format("%.2f",valorT));
+        System.out.println("Descontos: " + String.format("%.2f", descontos));
+        System.out.println("Total: " + String.format("%.2f", valorT));
     }
 }
