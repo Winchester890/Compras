@@ -52,7 +52,7 @@ public class Carrinho {
             System.out.println("Item: " + itemCompra.getProduto().getDescricao());
             System.out.println("Quantidade: " + itemCompra.getQtde());
             System.out.println("Preço: " + itemCompra.getProduto().getPreco());
-            System.out.println("Subtotal: " + pr);
+            System.out.println("Subtotal: " + String.format("%.2f", pr));
             System.out.println("---------------------------------------------------");
         }
     }
